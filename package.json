@@ -1,0 +1,25 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "cucumber-js",
+    "cucumber": "node_modules/.bin/cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "chai": "^5.1.0",
+    "chromedriver": "^125.0.6422.141",
+    "cucumber": "^6.0.7",
+    "jest": "^29.7.0",
+    "selenium-webdriver": "^4.19.0"
+  },
+  "dependencies": {
+    "open": "^10.1.0"
+  }
+}
